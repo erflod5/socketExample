@@ -1,5 +1,5 @@
 //var sock =new WebSocket("ws://localhost:5001");
-var sock = new WebSocket("ws://192.168.1.187:3001"); //replace this address with the one the node.js server prints out. keep port 3000
+var sock = new WebSocket("ws://13.59.203.226:3001"); //replace this address with the one the node.js server prints out. keep port 3000
 var display = document.getElementById("display");
 sock.onopen = function(event) {
   alert("Socket connected succesfully!!!");
